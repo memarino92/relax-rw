@@ -14,4 +14,4 @@ jobs:
       - name: Unit Tests
         run: yarn rw test --no-watch
       - name: E2E Tests
-        run: yarn --cwd ./web/ exec npx playwright test
+        run: yarn --cwd web playwright test
